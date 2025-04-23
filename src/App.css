@@ -1,0 +1,25 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+.charts-wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    padding: 2rem;
+    gap: 50px;
+    margin: 18px;
+    width: 93.5%;
+    flex-wrap: wrap
+}
+.line-graph, .pieChart{
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+}
