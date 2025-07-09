@@ -181,7 +181,7 @@ const SignupSignin = () => {
         <div className="signup-wrapper">
           <h2 className="title">
             Signup on{" "}
-            <span style={{ color: "var(--theme)" }}>Personal Finance</span>
+            <span style={{ color: "var(--theme)" }}>Money Nest</span>
           </h2>
           <form action="">
             <Input
