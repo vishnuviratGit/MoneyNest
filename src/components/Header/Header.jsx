@@ -26,7 +26,7 @@ const Header = () => {
   }
   return (
     <div className='navBar'>
-       <p className='logo'>Personal Finance</p>
+       <p className='logo'>Money Nest</p>
        {user && <p className="logo link" onClick={handleLogout}>Logout</p>}
        
     </div>
